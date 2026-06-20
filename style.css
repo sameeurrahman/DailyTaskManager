@@ -106,18 +106,18 @@ body{
 
 /* Tasks */
 
-.task-card{
-    margin-top:12px;
-    border:1px solid #e8e8e8;
-    padding:10px 12px;
-    border-radius:10px;
-    transition:0.2s;
-    position:relative;
-    z-index:1;
+.task-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb; /* Soft border */
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s;
 }
 
-.task-card:hover{
-    transform:translateY(-1px);
+.task-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-color: #d1d5db;
 }
 
 
